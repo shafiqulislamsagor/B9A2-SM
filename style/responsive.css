@@ -1,5 +1,12 @@
 /* Small device -> mobile */
 @media screen and (max-width:600px) {
+    header{
+        width: 90%;
+    }
+    .menubar-container{
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
     .menu-item1 a img{
         max-width: 19%;
     }
@@ -14,11 +21,43 @@
     .menu-item2 {
         display: none;
     }
+    form {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .banner{
+        padding: 50px 0;
+    }
+    .banner-title{
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+    .banner-description{
+        padding: 15px;
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+    .form-container{
+        width: 78%;
+    }
+    input{
+        width: 88%;
+    }
+    select , #btn-banner{
+        width: 96%;
+    }
 }
 /* Medium device -> tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
     .menu-item2  ul  li a {
         font-size: 1.6rem;
+    }
+    header{
+        width: 90%;
+    }
+    .menubar-container{
+        padding-top: 20px;
+        margin-bottom: 20px;
     }
     .menu-item2  ul  li{
         margin-left: 20px;
@@ -26,5 +65,30 @@
     .icon-title {
         font-size: 2.1rem;
         margin-left: 6px;
+    }
+    form {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .banner{
+        padding: 50px 0;
+    }
+    .banner-title{
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+    .banner-description{
+        padding: 15px 40px ;
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+    .form-container{
+        width: 78%;
+    }
+    input{
+        width: 88%;
+    }
+    select , #btn-banner{
+        width: 96%;
     }
 }
