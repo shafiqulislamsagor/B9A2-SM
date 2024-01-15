@@ -1,11 +1,11 @@
 /* Small device -> mobile */
 @media screen and (max-width:600px) {
-    header{
+    header ,main{
         width: 90%;
     }
     .menubar-container{
         padding-top: 20px;
-        margin-bottom: 20px;
+        padding-bottom: 32px;
     }
     .menu-item1 a img{
         max-width: 19%;
@@ -24,6 +24,9 @@
     form {
         flex-direction: column;
         gap: 16px;
+    }
+    .banner-container{
+        margin-bottom: 20px;
     }
     .banner{
         padding: 50px 0;
@@ -46,13 +49,29 @@
     select , #btn-banner{
         width: 96%;
     }
+    .tours-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .tours-img{
+        width: 100%;
+    }
+    .tours-img > img{
+        max-width: 100%;
+    }
+    .tours-title{
+        font-size: 2rem;
+    }
+    .tours-description{
+        font-size: 1.4rem;
+    }
 }
 /* Medium device -> tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
     .menu-item2  ul  li a {
         font-size: 1.6rem;
     }
-    header{
+    header , main{
         width: 90%;
     }
     .menubar-container{
@@ -91,4 +110,20 @@
     select , #btn-banner{
         width: 96%;
     }
+    .tours-container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .tours-img{
+        width: 100%;
+    }
+    .tours-img > img{
+        width: 100%;
+    }
+    /* .tours-title{
+        font-size: 2rem;
+    }
+    .tours-description{
+        font-size: 1.4rem;
+    } */
 }
