@@ -1,0 +1,13 @@
+/* Mulish font link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/* html font size extra */
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+/* Universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
