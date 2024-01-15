@@ -85,6 +85,33 @@
     .destination-description{
         font-size: 1.4rem;
     }
+    .text{
+        font-size: 2rem;
+    }
+    .why-items{
+        flex-direction: column;
+    }
+    .why-item-container-1{
+        max-width: 100%;
+    }
+    .why-item-container-2{
+        max-width: 100%;
+    }
+    .why-item-container-3{
+        max-width: 100%;
+    }
+    .why-intru {
+        max-width: 90%;
+        margin: 40px auto 40px;
+    }
+    
+    .why-title {
+        font-size: 3rem;
+    }
+    
+    .why-description {
+        font-size: 1.4rem;
+    }
 }
 /* Medium device -> tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
@@ -148,5 +175,8 @@
     }
     .destination-description{
         font-size: 1.4rem;
+    }
+    .text{
+        font-size: 1.6rem;
     }
 }
