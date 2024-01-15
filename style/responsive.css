@@ -65,6 +65,26 @@
     .tours-description{
         font-size: 1.4rem;
     }
+    .destination-items {
+        grid-template-columns: 1fr;
+    }
+    .none{
+        grid-row: 1 span;
+        grid-column:1 span;
+    }
+    .destination-items img{
+        height: 176px;
+    }
+    .destination-intru{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .destination-title{
+        font-size: 2rem;
+    }
+    .destination-description{
+        font-size: 1.4rem;
+    }
 }
 /* Medium device -> tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
@@ -120,10 +140,13 @@
     .tours-img > img{
         width: 100%;
     }
-    /* .tours-title{
-        font-size: 2rem;
+    .destination-intru{
+        width: 80%;
     }
-    .tours-description{
+    .destination-title{
+        font-size: 3rem;
+    }
+    .destination-description{
         font-size: 1.4rem;
-    } */
+    }
 }
