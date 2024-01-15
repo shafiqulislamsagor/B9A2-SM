@@ -355,7 +355,7 @@ select {
     color: #131318;
     text-align: center;
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -365,7 +365,7 @@ select {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;

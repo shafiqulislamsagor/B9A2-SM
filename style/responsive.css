@@ -152,6 +152,14 @@
         margin-left: auto;
         padding: 10px;
     }
+    .deals-intru{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+.deals-title{
+    font-size: 3rem;
+}
+
 
     .deals-box,
     .deals-boxs {
