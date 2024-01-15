@@ -337,9 +337,133 @@ select {
     font-size: 1.6rem;
     line-height: 26px;
 }
-.why-items{
+
+.why-items {
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-bottom: 24px;
+}
+
+/* deals related style */
+.deals-intru {
+    max-width: 60%;
+    margin: 100px auto 50px;
+}
+
+.deals-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-details {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.deals-box {
+    background: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    max-width: 100%;
+    padding: 56px;
+    margin-bottom: 24px;
+
+}
+.deals-boxs {
+    background: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    max-width: 100%;
+    padding: 56px;
+    margin-bottom: 24px;
+
+}
+
+.deals-items-box {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 45%;
+    margin-left: auto;
+    padding: 50px;
+}
+.deals-items-boxs {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 45%;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.deals-btn {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 12px 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.logo>p {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.deals-logo {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 26px;
+}
+
+.box-title {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.box-details {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.large{
+    display:flex;
+    justify-content: center;
 }

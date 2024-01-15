@@ -1,182 +1,272 @@
 /* Small device -> mobile */
 @media screen and (max-width:600px) {
-    header ,main{
+
+    header,
+    main {
         width: 90%;
     }
-    .menubar-container{
+
+    .menubar-container {
         padding-top: 20px;
         padding-bottom: 32px;
     }
-    .menu-item1 a img{
+
+    .menu-item1 a img {
         max-width: 19%;
     }
+
     .icon-title {
         font-size: 2.1rem;
         margin-left: 6px;
     }
+
     .menu-item3 {
         display: block;
         font-size: 2rem;
     }
+
     .menu-item2 {
         display: none;
     }
+
     form {
         flex-direction: column;
         gap: 16px;
     }
-    .banner-container{
+
+    .banner-container {
         margin-bottom: 20px;
     }
-    .banner{
+
+    .banner {
         padding: 50px 0;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 2.2rem;
         margin-bottom: 8px;
     }
-    .banner-description{
+
+    .banner-description {
         padding: 15px;
         font-size: 1.4rem;
         margin-bottom: 25px;
     }
-    .form-container{
+
+    .form-container {
         width: 78%;
     }
-    input{
+
+    input {
         width: 88%;
     }
-    select , #btn-banner{
+
+    select,
+    #btn-banner {
         width: 96%;
     }
-    .tours-container{
+
+    .tours-container {
         flex-direction: column;
         gap: 24px;
     }
-    .tours-img{
+
+    .tours-img {
         width: 100%;
     }
-    .tours-img > img{
+
+    .tours-img>img {
         max-width: 100%;
     }
-    .tours-title{
+
+    .tours-title {
         font-size: 2rem;
     }
-    .tours-description{
+
+    .tours-description {
         font-size: 1.4rem;
     }
+
     .destination-items {
         grid-template-columns: 1fr;
     }
-    .none{
+
+    .none {
         grid-row: 1 span;
-        grid-column:1 span;
+        grid-column: 1 span;
     }
-    .destination-items img{
+
+    .destination-items img {
         height: 176px;
     }
-    .destination-intru{
+
+    .destination-intru {
         width: 90%;
         margin: 40px auto;
     }
-    .destination-title{
+
+    .destination-title {
         font-size: 2rem;
     }
-    .destination-description{
+
+    .destination-description {
         font-size: 1.4rem;
     }
-    .text{
+
+    .text {
         font-size: 2rem;
     }
-    .why-items{
+
+    .why-items {
         flex-direction: column;
     }
-    .why-item-container-1{
+
+    .why-item-container-1 {
         max-width: 100%;
     }
-    .why-item-container-2{
+
+    .why-item-container-2 {
         max-width: 100%;
     }
-    .why-item-container-3{
+
+    .why-item-container-3 {
         max-width: 100%;
     }
+
     .why-intru {
         max-width: 90%;
         margin: 40px auto 40px;
     }
-    
+
     .why-title {
         font-size: 3rem;
     }
-    
+
     .why-description {
         font-size: 1.4rem;
     }
+
+    .deals-items-box,
+    .deals-items-boxs {
+        max-width: 100%;
+        margin-left: auto;
+        padding: 10px;
+    }
+
+    .deals-box,
+    .deals-boxs {
+        padding: 16px;
+        padding-top: 240px;
+    }
+    .deals-logo{
+        
+        flex-wrap: wrap-reverse;
+    }
+    .large{
+        display:flex;
+        justify-content: center;
+    }
 }
+
 /* Medium device -> tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
-    .menu-item2  ul  li a {
+    .menu-item2 ul li a {
         font-size: 1.6rem;
     }
-    header , main{
+
+    header,
+    main {
         width: 90%;
     }
-    .menubar-container{
+
+    .menubar-container {
         padding-top: 20px;
         margin-bottom: 20px;
     }
-    .menu-item2  ul  li{
+
+    .menu-item2 ul li {
         margin-left: 20px;
     }
+
     .icon-title {
         font-size: 2.1rem;
         margin-left: 6px;
     }
+
     form {
         flex-direction: column;
         gap: 16px;
     }
-    .banner{
+
+    .banner {
         padding: 50px 0;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 2.2rem;
         margin-bottom: 8px;
     }
-    .banner-description{
-        padding: 15px 40px ;
+
+    .banner-description {
+        padding: 15px 40px;
         font-size: 1.4rem;
         margin-bottom: 25px;
     }
-    .form-container{
+
+    .form-container {
         width: 78%;
     }
-    input{
+
+    input {
         width: 88%;
     }
-    select , #btn-banner{
+
+    select,
+    #btn-banner {
         width: 96%;
     }
-    .tours-container{
+
+    .tours-container {
         flex-direction: column;
         gap: 24px;
     }
-    .tours-img{
+
+    .tours-img {
         width: 100%;
     }
-    .tours-img > img{
+
+    .tours-img>img {
         width: 100%;
     }
-    .destination-intru{
+
+    .destination-intru {
         width: 80%;
     }
-    .destination-title{
+
+    .destination-title {
         font-size: 3rem;
     }
-    .destination-description{
+
+    .destination-description {
         font-size: 1.4rem;
     }
-    .text{
+
+    .text {
         font-size: 1.6rem;
+    }
+    .deals-items-box,
+    .deals-items-boxs {
+        max-width: 100%;
+        margin-left: auto;
+        padding: 35px;
+    }
+
+    .deals-box,
+    .deals-boxs {
+        padding: 16px;
+        padding-top: 240px;
+    }
+    .deals-logo{
+        flex-wrap: wrap-reverse;
     }
 }
