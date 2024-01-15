@@ -1,13 +1,73 @@
 /* Mulish font link */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
 /* html font size extra */
-html{
+html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
+
 /* Universal selector  */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
+}
+
+/* same related style */
+header,
+main {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.menu-item1>a,
+.menu-item2>ul  {
+    display: flex;
+    align-items: center;
+}
+
+/* header related style */
+/* menubar related style */
+.menubar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.icon-title {
+    color: #131318;
+    font-size: 3.6rem;
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.color {
+    color: #FF5400;
+}
+.menu-item2 ul {
+    list-style: none;
+}
+.menu-item2 ul li{
+    margin-left: 40px
+}
+
+.menu-item2  ul  li a  , .menu-item1 > a{
+    color:#424247;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.5s border 0.8s;
+}
+.menu-item2  ul li a:hover{
+    border-bottom: 1px solid #FF5400;
+}
+
+.menu-item3 {
+    display: none;
+}
+.menu-item3 a{
+    color: #131318;
 }

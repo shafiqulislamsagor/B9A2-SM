@@ -1,8 +1,30 @@
 /* Small device -> mobile */
 @media screen and (max-width:600px) {
-    
+    .menu-item1 a img{
+        max-width: 19%;
+    }
+    .icon-title {
+        font-size: 2.1rem;
+        margin-left: 6px;
+    }
+    .menu-item3 {
+        display: block;
+        font-size: 2rem;
+    }
+    .menu-item2 {
+        display: none;
+    }
 }
 /* Medium device -> tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
-    
+    .menu-item2  ul  li a {
+        font-size: 1.6rem;
+    }
+    .menu-item2  ul  li{
+        margin-left: 20px;
+    }
+    .icon-title {
+        font-size: 2.1rem;
+        margin-left: 6px;
+    }
 }
