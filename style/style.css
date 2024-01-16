@@ -641,6 +641,16 @@ footer {
     line-height: 162.5%;
     margin: 15px auto 30px;
 }
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.social-icon a{
+    color: #131318;
+    font-size: 24px;
+}
 
 .hr {
     margin: 50px 0;
