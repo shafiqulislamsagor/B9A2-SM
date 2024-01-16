@@ -641,7 +641,8 @@ footer {
     line-height: 162.5%;
     margin: 15px auto 30px;
 }
-.hr{
+
+.hr {
     margin: 50px 0;
 }
 
@@ -649,4 +650,121 @@ footer {
     color: #131318;
     font-size: 1.6rem;
     font-weight: 300;
+}
+
+/* Extra bonus part */
+.review-container{
+    margin: 100px 0;
+}
+.review-box {
+    width: 30%;
+    border-radius: 35px 4px;
+    border: 3px solid #D5DDDD;
+    padding: 21px 30px;
+}
+
+.review-boxs {
+    width: 30%;
+    border-radius: 35px 4px;
+    background: #FF5400;
+    padding: 21px 30px;
+}
+
+.person {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.personal {
+    color: #1E1E1E;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 128.023%;
+}
+
+.personals {
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 128.023%;
+}
+
+.person-img {
+    background: url('../Images/Ellipse\ 9.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.person-img img {
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+.person-review-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.profe {
+    color: #B0B0B0;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 128.023%;
+}
+
+.profes {
+    color: #E1E1E1;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 128.023%;
+}
+
+.review-details {
+    color: #575757;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 181.023%;
+}
+
+.review-detailss {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 181.023%;
+}
+
+.coma {
+    color: #FF5400;
+    font-size: 10rem;
+    line-height: 128.023%;
+    text-align: right;
+}
+
+.comas {
+    color: #fff;
+    font-size: 10rem;
+    line-height: 128.023%;
+    text-align: right;
+}
+.review-caption{
+    max-width: 50%;
+}
+
+.caption {
+    color: #1E1E1E;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 128.023%;
+    margin-bottom: 20px;
+}
+
+.caption-details {
+    color: #575757;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 175.023%;
+    margin-bottom: 20px;
 }
